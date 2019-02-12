@@ -1,6 +1,6 @@
 # JavalinSwagger
 
-### Simple example for integration Javalin with Swagger using kotlin
+### Simple example of Javalin integration with Swagger using kotlin
 
 This approach uses [Swagger 2.X Annotations](https://github.com/swagger-api/swagger-core/wiki/Swagger-2.X---Annotations) to generate a api specification.
 
