@@ -1,9 +1,16 @@
 # JavalinSwagger
 
-### Simple example for integration Javalin with Swagger
+### Simple example for integration Javalin with Swagger using kotlin
 
 This approach uses [Swagger 2.X Annotations](https://github.com/swagger-api/swagger-core/wiki/Swagger-2.X---Annotations) to generate a api specification.
 
+## Features
+- Enable openAPI endpoint for javalin
+- Enable swagger-ui endpoint for javalin
+
+## Usage example
+
+### Controller
 ```java
 @OpenAPIDefinition(
     info = Info(
@@ -35,11 +42,7 @@ class HeroController {
 }
 ```
 
-## Features
-- Enable openAPI endpoint for javalin
-- Enable swagger-ui endpoint for javalin
-
-## Usage example
+### Create and start server
 ```java
 val app = Javalin.create().swagger()
     app.get("/hero/:id", HeroController()::findHero)
