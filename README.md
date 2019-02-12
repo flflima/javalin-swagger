@@ -2,7 +2,7 @@
 
 ### Simple example for integration Javalin with Swagger
 
-This aproach uses [Swagger 2.X Annotations](https://github.com/swagger-api/swagger-core/wiki/Swagger-2.X---Annotations) to generate a api spacification.
+This approach uses [Swagger 2.X Annotations](https://github.com/swagger-api/swagger-core/wiki/Swagger-2.X---Annotations) to generate a api specification.
 
 ```java
 @OpenAPIDefinition(
